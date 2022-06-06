@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Docena de Empanadas",
+        "price": 22,
+        "stock": 6
+    },
+    {
+        "id": 2,
+        "name": "Tortilla de papa",
+        "price": 15,
+        "stock": 5
+    },
+    {
+        "id": 3,
+        "name": "Pastel de papa",
+        "price": 11,
+        "stock": 9
+    },
+    {
+        "id": 4,
+        "name": "Sandwich de Milanesa",
+        "price": 13,
+        "stock": 2
+    },
+    {
+        "id": 5,
+        "name": "Ensalada Cesar",
+        "price": 10,
+        "stock": 4
+    },
+    {
+        "id": 6,
+        "name": "Picada vegetariana",
+        "price": 21,
+        "stock": 6
+    },
+    {
+        "id": 7,
+        "name": "Picada clásica",
+        "price": 30,
+        "stock": 5
+    },
+    {
+        "id": 8,
+        "name": "Hamburguesa vegetariana",
+        "price": 25,
+        "stock": 9
+    }
+]

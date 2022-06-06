@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Iru Vermú | Sitio oficial</title>
+    <meta name="description" content="Algunos de los mejores platillos en Buenos aires.">
+    <meta name="keywords" content="bar vermu, vermu trago, que es vermu, vermu tirado, mejores vermu" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="img/images.png">
+
+</head>
+
+<body class="body">
+    <header class="contact__header">
+
+
+        <nav id="nav" class="navbar">
+
+            <a href="#" class="close"><img src="img/close.png"></a>
+
+            <ul class="navbar__menu wow animate__animated animate__fadeIn animate__slower">
+                <li class="navbar__menuItem hiddenlogo">
+                    <img src="img/images.png" width="200px" />
+                </li>
+                <li class="navbar__menuItem"><a href="index.html">¡Pedinos comida!</a></li>
+                <li class="navbar__menuItem"><a href="contacto.html">Contacto</a>
+            </ul>
+        </nav>
+        <a href="#nav" class="open"><img src="img/open.png"></a>
+        <h1 class="header__title wow animate__animated animate__fadeIn animate__slow">¡Contactanos!</h1>
+
+    </header>
+
+    <section class="center">
+        <section class="contact__form">
+            <div class="section__intro wow animate__animated animate__fadeInLeft animate__slow">
+                <h3 class="section__title">¡Háganos saber lo que está en su mente!</h3>
+                <p class="section__par">¿Tienes alguna pregunta, comentario o simplemente quieres saludar? Nos
+                    encantaría saber de
+                    tí. Si tiene alguna pregunta o inquietud que le gustaría hacer, no dude en ponerse en contacto con
+                    nosotros.
+                    Leemos todos los correos electrónicos que recibimos y hacemos todo lo posible para responder a
+                    tantos como podamos.
+                    Debido a nuestro agitado estilo de vida a tiempo completo, no siempre es
+                    Es posible responder a todos de inmediato, pero nos pondremos en contacto tan pronto como podamos.
+                </p>
+
+            </div>
+
+            <div class="section__form">
+
+                <form action="">
+
+                    <div>
+                        <input id="input__name" type="text" name="name" placeholder="Nombre" onchange="ChangeInputName()"
+                            class="wow animate__animated animate__fadeInRight animate__slow" data-wow-delay="0s">
+                    </div>
+
+                    <div>
+                        <input id="input__lastname" type="text" name="surname" placeholder="Apellido"
+                            onchange="ChangeInputLastname()"
+                            class="wow animate__animated animate__fadeInRight animate__slow" data-wow-delay="0.1s">
+                    </div>
+
+                    <div>
+                        <input id="input__mail" type="email" name="email" placeholder="Email"
+                            onchange="ChangeInputMail()"
+                            class="wow animate__animated animate__fadeInRight animate__slow" data-wow-delay="0.2s">
+                    </div>
+
+                    <div>
+                        <textarea id="input__msg" name="Mensaje" id="" cols="30" rows="10" onchange="ChangeInputMsg()"
+                            placeholder="Dejanos tu mensaje"
+                            class="wow animate__animated animate__fadeInRight animate__slow"
+                            data-wow-delay="0.3s"></textarea>
+                    </div>
+
+                    <div class="botones">
+                        <input id="button__send" type="submit" value="Enviar" onclick="SendAlert()"
+                            class="wow animate__animated animate__fadeInRight animate__slow"
+                            data-wow-delay="0.8s"><input type="reset" value="Borrar"
+                            class="wow animate__animated animate__fadeInRight animate__slow" data-wow-delay="0.4s">
+                    </div>
+
+                </form>
+            </div>
+        </section>
+    </section>
+
+    <section class="prefooter2">
+        <h2 class="prefooter__title">"Los trabajos llenan tu bolsillo, pero las emapanadas llenan tu alma"</h2>
+    </section>
+
+    <footer class="center">
+        <p>Trabajo final de Javascript - Ignacio Casco. Coderhouse 2022.</p>
+        <li>
+            <a href="https://www.facebook.com/iru_vermu-105874764795116/" class="fa fa-facebook"></a>
+            <a href="https://www.instagram.com/iru_vermu" class="fa fa-instagram"></a>
+        </li>
+    </footer>
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+        </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+        </script>
+    <script src="js/wow.min.js"></script>
+
+    <script>
+        new WOW().init();
+    </script>
+    <script src="js/scriptform.js"></script>
+</body>
+
+</html>
